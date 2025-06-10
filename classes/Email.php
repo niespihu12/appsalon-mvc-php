@@ -30,7 +30,7 @@ class Email
         $mail->Password = $_ENV['EMAIL_PASS'];
 
 
-        $mail->setFrom($_ENV['EMAIL_USER']);
+        $mail->setFrom("correo@correo.com");
         $mail->addAddress($this->email, $this->nombre);
         $mail->Subject = 'Confirma tu cuenta';
 
@@ -61,7 +61,7 @@ class Email
         $mail->Password = $_ENV['EMAIL_PASS'];
 
 
-        $mail->setFrom($_ENV['EMAIL_USER']);
+        $mail->setFrom("correo@correo.com");
         $mail->addAddress($this->email, $this->nombre);
         $mail->Subject = 'Reestablece tu password';
 
