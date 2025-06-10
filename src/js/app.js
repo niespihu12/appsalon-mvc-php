@@ -285,7 +285,6 @@ function mostrarResumen() {
         resumen.appendChild(contenedorServicio);
 
     })
-
     // Heading para Cita en Resumen
     const headingCita = document.createElement('H3');
     headingCita.textContent = 'Resumen de Cita';
